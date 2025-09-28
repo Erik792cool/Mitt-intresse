@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+
+    height:100vh;
+    width: 100vw;
+
+    overflow: hidden;
+
+}
+
+.behind {
+    height:88vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+
+
+    background-image: url(/Resources/Videos-Gifs/Campfire.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.front {
+    width: 60%;
+    height: 70vh;
+
+    background-color: rgba(127, 127, 127, 0.35);
+
+    color: rgb(200, 200, 200);
+    
+    border-color: black;
+    border-width: 5px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+
+    h1, h3 {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 0;
+
+        font-family: "Londrina Shadow", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        text-decoration:underline;
+        text-decoration-style:solid;
+        text-decoration-thickness: 2px;
+    }
+
+    h1 {
+        margin-top: 30px;
+        
+    }
+
+    p {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 0.67em;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1280px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .front {
+        width: 70%;
+        /* height: 70vh; */
+
+        font-size:medium;
+    }
+}
+
+@media (max-width: 572px) {
+    .front {
+        width: 80%;
+        /* height: 75vh; */
+
+        font-size:smaller;
+    }
+}
+
+@media (max-width: 376px) {
+    .front {
+        width: 90%;
+        /* height: 80vh; */
+
+        font-size:small;
+
+    }
+}

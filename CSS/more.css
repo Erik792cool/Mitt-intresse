@@ -1,0 +1,170 @@
+@media (prefers-color-scheme: light) {
+    body {
+      background-color: #ffffff; /* White background for light mode */
+    }
+}
+  
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212; /* Dark background for dark mode */
+    }
+}
+
+body {
+    margin: 0;
+
+    width: 100vw;
+
+    overflow-anchor: none;
+}
+
+hr {
+    border: double;
+    border-color: black;
+    border-top: 3px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.section_1, .section_2, .section_3 {
+    height:88vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+}
+
+.section_3 {
+    justify-content: center;
+}
+
+.front_1, .front_2, .front_3, .picture_1, .picture_2 {
+    @media (prefers-color-scheme: light) {
+        background-color: #EEEEEE;
+        color: #000000;
+    }
+      
+    @media (prefers-color-scheme: dark) {
+        background-color: #282828;
+        color: #ffffff;
+    }
+}
+
+.front_1, .front_2, .front_3 {
+    width: 50%;
+    height: 65vh;
+
+    border-radius: 25px;
+
+    h1, h3 {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 0;
+
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        text-decoration:underline;
+        text-decoration-style:solid;
+        text-decoration-thickness: 2px;
+    }
+
+    h1 {
+        margin-top: 30px;
+        
+    }
+
+    p {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 0.67em;
+        margin-bottom: 0;
+    }
+}
+
+.front_3 {
+    width: 87.5%;
+}
+
+.picture_1, .picture_2 {
+    width: 30%;
+    height: 65vh; 
+
+    background-image: url(/Resources/Images/no-image-icon-23494.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 25px;
+
+    
+    text-align: center;
+    justify-content: center;
+}
+
+.picture_2 {
+    background-image: url(/Resources/Images/Ilustration\ \(aktiviteter\).jpg);
+}
+
+.picture_1 {
+    background-image: url(/Resources/Images/Scoutlager);
+}
+
+@media (min-width: 1280px) {}
+
+@media (max-width: 1024px) {
+    
+    .front_1, .front_2, .front_3 {
+        font-size:  small;
+    }
+}
+
+@media (max-width: 768px) {
+    .section_1, .section_2 {
+        height:147.25vh;
+
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .section_3 {
+        height: 76.5vh;
+    }
+
+    .front_1, .front_2, .front_3 {
+        width: 87.5%;
+        font-size:  medium;
+    }
+
+    .picture_1, .picture_2 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 572px) {
+    .picture_1, .picture_2 {
+        width: 70%;
+    }
+
+    .front_1, .front_2, .front_3 {
+        font-size:smaller;
+    }
+}
+
+@media (max-width: 376px) {
+    .picture_1, .picture_2 {
+        width: 87.5%;
+    }
+
+    .front_1, .front_2, .front_3 {
+        font-size:small;
+    }
+}
