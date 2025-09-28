@@ -16,7 +16,7 @@ body {
     flex-direction: row;
 
 
-    background-image: url(/Resources/Videos-Gifs/Campfire.gif);
+    background-image: url(Resources/Videos-Gifs/Campfire.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
