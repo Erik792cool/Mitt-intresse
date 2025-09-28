@@ -98,7 +98,7 @@ hr {
     width: 30%;
     height: 65vh; 
 
-    background-image: url(/Resources/Images/no-image-icon-23494.png);
+    background-image: url(../Resources/Images/no-image-icon-23494.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -111,11 +111,11 @@ hr {
 }
 
 .picture_2 {
-    background-image: url(/Resources/Images/Ilustration\ \(aktiviteter\).jpg);
+    background-image: url(../Resources/Images/Ilustration\ \(aktiviteter\).jpg);
 }
 
 .picture_1 {
-    background-image: url(/Resources/Images/Scoutlager);
+    background-image: url(../Resources/Images/Scoutlager);
 }
 
 @media (min-width: 1280px) {}
